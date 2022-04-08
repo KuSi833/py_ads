@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "py-ads"
+name = "py_ads"
 version = "0.1.0"
 description = "Python Algorithms & Data Structures Library"
 authors = ["KuSi833 <kabo.milicic@gmail.com>"]
@@ -19,4 +19,8 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.yapf]
 based_on_style = "google"
+spaces_before_comment = 4
+split_before_logical_operator = true
 align_closing_bracket_with_visual_indent = true
+blank_line_before_nested_class_or_def = false
+column_limit = 140
