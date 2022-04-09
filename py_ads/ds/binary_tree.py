@@ -20,3 +20,25 @@ def size(node: BinaryTreeNode):
     if node:
         return 1 + size(node.left) + size(node.right)
     return 0
+
+
+# Traversals
+def preorder(node: BinaryTreeNode):
+    if node:
+        print(node.val, end=" ")
+        preorder(node.left)
+        preorder(node.right)
+
+
+def inorder(node: BinaryTreeNode):
+    if node:
+        preorder(node.left)
+        print(node.val, end=" ")
+        preorder(node.right)
+
+
+def postorder(node: BinaryTreeNode):
+    if node:
+        preorder(node.left)
+        preorder(node.right)
+        print(node.val, end=" ")
