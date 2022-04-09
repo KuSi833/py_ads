@@ -1,7 +1,10 @@
+from typing import Dict, Any
+
+
 class DisjointSet:
     def __init__(self) -> None:
-        self.parent = dict()
-        self.rank = dict()
+        self.parent: Dict[Any, Any] = dict()
+        self.rank: Dict[Any, int] = dict()
 
     def make_set(self, x):
         self.parent[x] = x
