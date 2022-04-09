@@ -1,5 +1,6 @@
 from py_ads.ds.graphs.undirected_weighted_graph import UndirectedWeightedGraph
-from py_ads.algos import kruskals, prims
+from py_ads.algos.kruskals import kruskals
+from py_ads.algos.prims import prims
 
 # def test_minimum_spanning_tree():
 

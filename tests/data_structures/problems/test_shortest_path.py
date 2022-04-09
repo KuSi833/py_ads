@@ -1,7 +1,5 @@
-from py_ads.ds.graphs.undirected_graph import (
-    UndirectedGraph,
-    ShortestPathBFS,
-)
+from py_ads.ds.graphs.undirected_graph import UndirectedGraph
+from py_ads.algos.shortest_path_bfs import ShortestPathBFS
 
 
 def test_shortest_path_bfs():
