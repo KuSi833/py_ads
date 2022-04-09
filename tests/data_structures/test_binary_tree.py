@@ -1,4 +1,11 @@
-from py_ads.ds.binary_tree import (BinaryTreeNode, find, size)
+from py_ads.ds.binary_tree import (
+    BinaryTreeNode,
+    find,
+    size,
+    preorder,
+    inorder,
+    postorder,
+)
 
 
 def create_tree():
@@ -22,3 +29,8 @@ def test_size():
     root = create_tree()
 
     assert (size(root) == 3)
+
+
+if __name__ == "__main__":
+    root = create_tree()
+    preorder(root)
