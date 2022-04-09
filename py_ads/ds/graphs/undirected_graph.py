@@ -1,6 +1,3 @@
-# Data Structure
-
-
 class UndirectedGraph:
     def __init__(self):
         self.map = dict()
@@ -26,6 +23,3 @@ class UndirectedGraph:
 
     def get_neighbors(self, node: str):
         return self.map[node]
-
-
-# Algorithms
