@@ -1,4 +1,4 @@
-from py_ads.ds.binary_tree import (
+from py_ads.ds.trees.binary_tree import (
     BinaryTreeNode,
     find,
     size,

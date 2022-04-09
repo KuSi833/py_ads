@@ -1,4 +1,3 @@
-from typing import List
 from py_ads.types import Value
 
 
@@ -9,7 +8,7 @@ class BinaryTreeNode:
         self.right = right
 
 
-def find(node: BinaryTreeNode, val):
+def find(node: BinaryTreeNode, val: Value):
     if node:
         if node.val == val:
             return node
